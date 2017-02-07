@@ -7,7 +7,6 @@ const fs = require('fs')
 
 const answer = require('./lib/answer')
 const generate = require('./lib/generate')
-const install = require('./lib/install')
 
 let config = require('./config')
 let questions = config.questions
@@ -28,18 +27,16 @@ program
         }
 
         // download boilerplate
-        // downloadTemplate({ username: program.username, repo: program.repo }, pName)
-        //     .then(res => {
-        //         // questions
-        //         answer(questions, answers => {
-        //             answers.name = pName
-        //             // generate package.json
-        //             generate(pName, answers)
-        //             // install
-        //         })
-        //     })
+        downloadTemplate({ username: program.username, repo: program.repo }, pName)
+            .then(res => {
+                // questions
+                answer(questions, answers => {
+                    answers.name = pName
+                    // generate package.json
+                    generate(pName, answers)
+                })
+            })
 
-        install(pName)
         
     })
     .parse(process.argv)

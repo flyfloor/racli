@@ -1,5 +1,4 @@
 module.exports = {
-    repo_url: 'https://github.com/jerryshew/react-boilerplate/archive/master.zip',
     questions: [
         {
             type: 'input',
