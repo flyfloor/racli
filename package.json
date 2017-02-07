@@ -1,10 +1,10 @@
 {
-  "name": "rab",
+  "name": "racli",
   "version": "1.0.0",
   "description": "simple react uikits cli, generate react app easily",
   "main": "init.js",
   "bin": {
-    "rab": "./init.js"
+    "racli": "./init.js"
   },
   "author": "jerryshew",
   "license": "MIT",
