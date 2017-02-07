@@ -1,7 +1,7 @@
 {
   "name": "rab",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple react uikits cli, generate react app easily",
   "main": "init.js",
   "bin": {
     "rab": "./init.js"
@@ -14,5 +14,13 @@
     "commander": "^2.9.0",
     "download-git-repo": "^0.2.1",
     "inquirer": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "cli"
+  ]
 }
