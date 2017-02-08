@@ -2,6 +2,8 @@
 
 simple react uikits cli, generate react app easily
 
+**actually this is only generate a project with a boilerplate(not only React boilerplate)**
+
 ### Install
 
 ```
