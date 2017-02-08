@@ -18,7 +18,15 @@ racli projectName
 
 e.g.
 
+download default boilerplate for react app.
+
 ```
 racli myFirstReactApp
+```
+
+download from https://github.com/xxx/yyy
+
+```
+racli app -u xxx -r yyy
 ```
 
