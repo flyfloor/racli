@@ -1,6 +1,6 @@
 {
   "name": "racli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple react uikits cli, generate react app easily",
   "main": "init.js",
   "bin": {
