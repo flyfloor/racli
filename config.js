@@ -19,7 +19,7 @@ module.exports = {
         }, {
             type: 'input',
             name: 'homepage',
-            message: 'project home page(e.g. https://github.com)'
+            message: 'project home page(e.g. https://www.google.com)'
         }, {
             type: 'input',
             name: 'keywords',
@@ -29,5 +29,7 @@ module.exports = {
     ],
     username: 'jerryshew',
     repo: 'react-boilerplate',
-    gitignore: '.DS_Store\nnode_modules\n/temp\n/tmp\n.log'
+    gitignore: '.DS_Store\nnode_modules\n/temp\n/tmp\n.log',
+    description: 'Content is automatically generated',
+    projectName: 'Hello App',
 }
